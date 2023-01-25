@@ -1,3 +1,6 @@
+"""This script takes a file name as a command-line argument and uses a dictionary to keep track of
+the lines that have been seen. If a line is already in the dictionary, it is added to a list of
+duplicates. Finally, the script prints out the list of duplicates."""
 import sys
 
 def find_duplicates(file_name):
