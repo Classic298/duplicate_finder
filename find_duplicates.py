@@ -22,8 +22,12 @@ def find_duplicates(file_name):
                 lines_seen[line] = 1
 
     # Print the list of duplicates
-    for duplicate in duplicates:
-        print(duplicate)
+    if duplicates:
+        for duplicate in duplicates:
+            print(duplicate)
+    # If no duplicates were found
+    else:
+        print("No duplicates found!")
 
 # Main function
 if __name__ == "__main__":
